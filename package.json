@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --bail tests/*_test.js"
-  }
+  },
   "dependencies": {
     "passwordless-tokenstore": "0.0.10",
     "bcrypt": "^0.8.0",
@@ -22,6 +22,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/daleharvey/passwordless-pouchstore.git"
-  },
-
+  }
 }
