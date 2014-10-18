@@ -1,15 +1,27 @@
 {
-  "name": "passwordless-pouchdbstore",
+  "name": "passwordless-pouchstore",
   "version": "0.0.1",
-  "devDependencies": {
-    "chai": "^1.9.2",
-    "mocha": "^1.21.5",
-    "passwordless-tokenstore-test": "^0.1.0",
-    "passwordless-tokenstore": "0.0.10",
-    "bcrypt": "^0.8.0",
-    "pouchdb": "^3.0.6"
-  },
+  "description": "PouchDB TokenStore for Passwordless",
+  "main": "index.js",
   "scripts": {
     "test": "mocha --bail tests/*_test.js"
   }
+  "dependencies": {
+    "passwordless-tokenstore": "0.0.10",
+    "bcrypt": "^0.8.0",
+    "pouchdb": "^3.0.6"
+
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^1.21.5",
+    "passwordless-tokenstore-test": "^0.1.0"
+  },
+  "author": "Dale Harvey <dale@arandomurl.com> (http://twitter.com/daleharvey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daleharvey/passwordless-pouchstore.git"
+  },
+
 }
